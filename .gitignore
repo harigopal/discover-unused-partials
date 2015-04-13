@@ -1,2 +1,4 @@
 tags
 discover-unused-partials-*
+Gemfile.lock
+.idea
