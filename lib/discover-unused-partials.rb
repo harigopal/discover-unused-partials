@@ -117,7 +117,7 @@ module DiscoverUnusedPartials
       [partials, dynamic]
     end
 
-    EXT = %w(.html.erb .text.erb .erb .html.haml .text.haml .haml .rhtml)
+    EXT = %w(.html.erb .text.erb .erb .html.haml .text.haml .haml .rhtml .html.slim .slim)
     def check_extension_path(file)
       "#{file}#{EXT.find{ |e| File.exists? file + e }}"
     end
